@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+<title>Travel</title>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_vanqZMkpPOADQP2iEpqKS");
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html">VACA ZONE</a>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">CONTACT US</a>
+          </li>
+        </ul>
+        </div>
+    </nav>
+    <br>
+    <section class="container-fluid ">
+              <h3 class="contact-heading uppercase text-center">Have any question?</h3>
+            <div class="center-form">
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Please leave a message" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+  <!-- End of page (footer) is used across all the pages of our website -->
+<footer class="text-uppercase">
+  <div class=".container-fluid">
+    <br>
+    </div>  
+</footer>
+<!-- JS Popper -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0FlPdp5mpb5g-r9nqCOm0IvuDT_ua3gI&callback=initMap"></script>
+<script src="assets/js/maps.js"></script>
+  </body>
+  </html>
