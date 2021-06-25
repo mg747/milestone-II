@@ -1,4 +1,4 @@
-<h1 align="center">P1 Band Website</h1>
+<h1 align="center">MILESTONE-II</h1>
 
 [View the live project here.](https://mg747.github.io/band/)
 
